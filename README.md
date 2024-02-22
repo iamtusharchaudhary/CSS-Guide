@@ -27,12 +27,12 @@ The following values are allowed:
 2. dashed - Defines a dashed border
 3. solid - Defines a solid border
 4. double - Defines a double border
-groove - Defines a 3D grooved border. The effect depends on the border-color value
-ridge - Defines a 3D ridged border. The effect depends on the border-color value
-inset - Defines a 3D inset border. The effect depends on the border-color value
-outset - Defines a 3D outset border. The effect depends on the border-color value
-none - Defines no border
-hidden - Defines a hidden border
+5. groove - Defines a 3D grooved border. The effect depends on the border-color value
+6. ridge - Defines a 3D ridged border. The effect depends on the border-color value
+7. inset - Defines a 3D inset border. The effect depends on the border-color value
+8. outset - Defines a 3D outset border. The effect depends on the border-color value
+9. none - Defines no border
+10. hidden - Defines a hidden border
 
 # CSS Margins
 The CSS margin properties are used to create space around elements, outside of any defined borders.
@@ -49,4 +49,20 @@ p {
   margin-bottom: 100px;
   margin-right: 150px;
   margin-left: 80px;
+}
+
+# Margin-Shorthand Property:-
+If the margin property has four values:-
+
+=> margin: 25px 50px 75px 100px;
+
+  1. top margin is 25px
+  2. right margin is 50px
+  3. bottom margin is 75px
+  4. left margin is 100px
+
+# Example:-
+Use the margin shorthand property with four values:-
+p {
+  margin: 25px 50px 75px 100px;
 }
