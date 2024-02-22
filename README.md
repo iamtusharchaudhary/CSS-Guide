@@ -33,42 +33,20 @@ inset - Defines a 3D inset border. The effect depends on the border-color value
 outset - Defines a 3D outset border. The effect depends on the border-color value
 none - Defines no border
 hidden - Defines a hidden border
-The border-style property can have from one to four values (for the top border, right border, bottom border, and the left border).
 
-Example
-Demonstration of the different border styles:
+# CSS Margins
+The CSS margin properties are used to create space around elements, outside of any defined borders.
+With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
+# CSS has properties for specifying the margin for each side of an element:
+1. margin-top
+2. margin-right
+3. margin-bottom
+4. margin-left
 
-p.dotted {border-style: dotted;}
-p.dashed {border-style: dashed;}
-p.solid {border-style: solid;}
-p.double {border-style: double;}
-p.groove {border-style: groove;}
-p.ridge {border-style: ridge;}
-p.inset {border-style: inset;}
-p.outset {border-style: outset;}
-p.none {border-style: none;}
-p.hidden {border-style: hidden;}
-p.mix {border-style: dotted dashed solid double;}
-Result:
-
-A dotted border.
-
-A dashed border.
-
-A solid border.
-
-A double border.
-
-A groove border. The effect depends on the border-color value.
-
-A ridge border. The effect depends on the border-color value.
-
-An inset border. The effect depends on the border-color value.
-
-An outset border. The effect depends on the border-color value.
-
-No border.
-
-A hidden border.
-
-A mixed border.
+# Example:-
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
