@@ -1,1 +1,6 @@
+Example
+Use the margin shorthand property with four values:
 
+p {
+  margin: 25px 50px 75px 100px;
+}
