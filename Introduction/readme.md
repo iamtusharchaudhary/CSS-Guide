@@ -24,6 +24,6 @@
 
 # Difference between class and id:-
 
-* # Class :- ### A class can be used by multiple HTML elements.
-* # ID :- ### A id can be used by only single and unique HTML element within the page.
+* ### Class :- A class can be used by multiple HTML elements.
+* ### ID :- A id can be used by only single and unique HTML element within the page.
   
