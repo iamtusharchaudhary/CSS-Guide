@@ -22,7 +22,8 @@
   
 * id Selector
 
-# Difference between class and id
+# Difference between class and id:-
 
-Click To show code
+* Class :- A class can be used by multiple HTML elements.
+* ID :- A id can be used by only single and unique HTML element within the page.
   
