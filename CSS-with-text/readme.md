@@ -1,29 +1,29 @@
 # CSS With Text 📰
 
-text-align:;
+1. text-align:;
 
-color: ;
+2. color: ;
 
-font-size: ;
+3. font-size: ;
 
-font-family: ;
+4. font-family: ;
 
-letter-spacing: ;
+5. letter-spacing: ;
 
-word-spacing: ;
+6. word-spacing: ;
 
-text-transform: ;
+7. text-transform: ;
 
-text-shadow: ;
+8. text-shadow: ;
 
-text-decoration: ;
+9. text-decoration: ;
 
-line-height: ;
+10. line-height: ;
 
-font-weight: ;
+11. font-weight: ;
 
-vertical-align: ;
+12. vertical-align: ;
 
-font: ;
+13. font: ;
 
-white-space: ;
+14. white-space: ;
