@@ -2,6 +2,16 @@
 
 CSS Flexbox, short for Flexible Box Layout, offers a streamlined way to design adaptable and visually appealing layouts. It works primarily in one dimension (row or column) to intelligently distribute space among elements within a container.
 
+# Features of flexbox:
+
+<ul>
+    <li>A lot of flexibility is given.</li>
+    <li>Arrangement & alignment of items.</li>
+    <li>Proper spacing</li>
+    <li>Order & Sequencing of items.</li>
+    <li>Bootstrap 4 is built on top of the flex layout.</li>
+<ul/>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
