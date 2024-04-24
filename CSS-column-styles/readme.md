@@ -1,4 +1,7 @@
 # CSS Multiple Columns
+CSS columns property is used to set the number of columns and the width of the columns. 
+
+### There are various properties of columns:-
 
 > column-count
 
