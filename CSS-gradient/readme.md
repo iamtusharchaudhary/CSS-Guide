@@ -16,6 +16,8 @@ To create a linear gradient you must define at least two color stops. Color stop
 background-image: linear-gradient(direction, color-stop1, color-stop2, ...);
 ```
 
+### Examples:-
+
 > background-image: linear-gradient(tomato, gold);
 
 > background-image: linear-gradient(to right, tomato, gold);
