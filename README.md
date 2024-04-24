@@ -7,15 +7,20 @@ CSS saves a lot of work. It can control the layout of multiple web pages all at 
 External stylesheets are stored in CSS files.<br>
 CSS is the language we use to style an HTML document.
 
-# 🖥 CSS Syntax
+# CSS provides several methods to define the styles
 
-Start with style attribute (style = " ") associated with html tag.
-Property name : Value or key : value == array.
+> Inline Style Sheets
 
-# 🖥 TYPE OF CSS
+> Internal Style Sheets
 
-Inline Type
+> External Style Sheets
 
-Internal Type
 
-External Type
+# Inline Style:-
+This method allows you to apply styles directly to an HTML element using the style attribute. This method is useful for making quick, one-off style changes.
+```
+<h1 style="color: red;">This heading containt red color</h1>
+
+```
+
+# Internal Styles:-
