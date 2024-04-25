@@ -1,7 +1,7 @@
 # CSS Animation
 CSS allows animation of HTML elements without using JavaScript!
 
-# CSS Animation Methods:-
+### CSS Animation Methods:-
 
 > @keyframes
 
