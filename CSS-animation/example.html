@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 400px;
+            width: 400px;
+            border: 2px solid black;
+            margin: 7% auto;
+        }
+        .tert{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            /* margin: 7% auto; */
+            position: relative;
+            animation-name: tushar;
+            animation-duration: 4s;
+        }
+        @keyframes tushar{
+            0%{background-color: red; left: 0px; top: 0px;}
+            35%{background-color: green; left: 200px; top: 0px;}
+            50%{background-color: royalblue; left: 200px; top: 200px;}
+            75%{background-color: brown; left: 0px; top: 200px;}
+            100%{background-color: hotpink; left: 0px; top: 0px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="tert"></div>
+    </div>
+</body>
+</html>
