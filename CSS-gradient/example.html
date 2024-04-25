@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+         /* This is Linear gradients */
+
+        .main{
+            padding: 7% 5%;
+            border: 2px solid black;
+            /* background-image: linear-gradient(tomato, gold); */
+            background-image: linear-gradient(to left, tomato, gold);
+            /* background-image: linear-gradient(to right, rgba(255, 99, 71, 0.50), rgba(255, 215, 0, 0.50), rgba(65, 105, 225, 0.80), rgba(0, 128, 128, 0.70)); */
+            /* background-image: repeating-linear-gradient(red, green 10%, yellow 20%); */
+        }
+
+        /* This is Radial gradient */
+
+
+        .box{
+            padding: 7% 5%;
+            border: 2px solid black;
+            margin-top: 2vh;
+            /* background-image: radial-gradient(tomato, gold, green); */
+            background-image: radial-gradient(circle, tomato, gold, green);
+        }
+
+        /* This is Conic gradient */
+
+
+        .card{
+            padding: 7% 5%;
+            border: 2px solid black;
+            margin-top: 2vh;
+            border-radius: 70%;
+            /* background-image: conic-gradient(tomato, gold, green, royalblue); */
+            background-image: conic-gradient(from 90deg, rgba(255, 99, 71, 0.50), rgba(255, 215, 0, 0.50), rgba(65, 105, 225, 0.80), rgba(0, 128, 128, 0.70));
+        }
+    </style>
+</head>
+<body>
+    <div class="main"></div>
+    <div class="box"></div>
+    <div class="card"></div>
+</body>
+</html>
