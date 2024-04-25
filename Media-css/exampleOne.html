@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{ margin: 0;}
+        .clr{ clear: both;}
+        .head{
+            padding: 2% 5%;
+            background-color: aqua;
+        }
+        .title{ font-size: 2rem; text-decoration: none; color: #404040; display: block;}
+        /* .row{ padding: 2%; background-color: gold;} */
+
+        .col-1{ width: 24.25%; height: 30vh; background-color: #404040; float: left;}
+        .col-2{ width: 24.25%; height: 30vh; background-color: #404040; float: left; margin-left: 1%;}
+        .col-3{ width: 24.25%; height: 30vh; background-color: #404040; float: left; margin-left: 1%;}
+        .col-4{ width: 24.25%; height: 30vh; background-color: #404040; float: right;}
+
+
+
+
+
+
+
+        /*  width : min (mobile->desktop) , max (desktop->mobile) */
+        @media(max-width:1920px){
+            .head{ background-color: royalblue;}
+            .col-1{ width: 24.25%;}
+            .col-2{ width: 24.25%; margin-left: 1%;}
+            .col-3{ width: 24.25%; margin-left: 1%;}
+            .col-4{ width: 24.25%;}
+        }
+
+
+        @media(max-width:1080px){
+            .head{ background-color: tomato;}
+            .title{ text-align: center;}
+            .col-1{ width: 49.50%;}
+            .col-2{ width: 49.50%;}
+            .col-3{ width: 49.50%; margin-left: 0%; margin-top: 1vh;}
+            .col-4{ width: 49.50%; margin-top: 1vh;}
+        }
+       
+
+        @media(max-width:650px){
+            .head{ background-color: teal;}
+            .title{ text-align: right;}
+            .col-1,.col-2,.col-3,.col-4{ width: 100%; float: none;}
+            .col-2{margin-left: 0%; margin-top: 1vh;}
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="head">
+        <a href="#" class="title">Site name</a>
+    </div>
+
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2"></div>
+        <div class="col-3"></div>
+        <div class="col-4"></div>
+        <div class="clr"></div>
+    </div>
+    
+</body>
+</html>
