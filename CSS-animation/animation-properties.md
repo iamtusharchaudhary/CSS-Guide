@@ -1,3 +1,4 @@
+```
  .banner {
             position: relative;
             width: 100%;
@@ -52,3 +53,5 @@
             }
 
         }
+
+```
